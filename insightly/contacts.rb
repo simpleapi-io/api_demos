@@ -1,6 +1,6 @@
 require 'httparty'
 
-def create_insightly_contact(token, data_encoding_id)
+def demo_insightly_contact(token, data_encoding_id)
   insightly_start = Time.now
 
   contact_data = {
